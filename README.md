@@ -11,9 +11,9 @@
 
 ### 1.2、login接口说明
 
-**login接口访问路径：**http://localhost:8080/jwt_interface/login
+**login接口访问路径：** http://localhost:8080/jwt_interface/login
 
-**请求方法：**POST
+**请求方法：** POST
 
 **参数：**
 
@@ -41,7 +41,7 @@
 
 ### 1.3、sbook接口
 
-**sbook接口访问路径：**http://localhost:8080/jwt_interface/sbook
+**sbook接口访问路径：** http://localhost:8080/jwt_interface/sbook
 
 **请求方法：** POST
 
