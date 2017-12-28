@@ -23,7 +23,7 @@
 
 *该请求并没有从数据库中进行实际的用户名和密码验证，而是在代码中写死了liudao和123456这一对用户名和密码，因为登录接口不是主要的应用接口，所以在此只是简单实现。
 
-**返回：**JSON
+**返回：** JSON
 
 ​	如果验证成功，返回
 
@@ -43,9 +43,9 @@
 
 **sbook接口访问路径：**http://localhost:8080/jwt_interface/sbook
 
-**请求方法：**POST
+**请求方法：** POST
 
-**验证方式：**Bearer Token（header中需要有Authorization，值为Bearer token值）
+**验证方式：** Bearer Token（header中需要有Authorization，值为Bearer token值）
 
 **参数：**
 
@@ -59,7 +59,7 @@
 
 ​	price : 书籍的价格，为double类型，筛选条件之一，表示不超过该价格，可省略
 
-**Cookie：**login成功后保存的名为expir的cookie，如果缺少将报token过期的错误
+**Cookie：** login成功后保存的名为expir的cookie，如果缺少将报token过期的错误
 
 **返回：**
 
