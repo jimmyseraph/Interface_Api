@@ -75,7 +75,7 @@
 
 ​			bookAuthor ： 书籍作者
 
-​			bookPrice ： 书籍价格
+​			bookPrice ： 书籍价格 
 
 ​	如果请求没有成功，则返回：
 
